@@ -1,0 +1,9 @@
+//ts-js 컨파일시 옵션설정 가능
+{   
+  "compilerOptions" : {     
+    "target": "es5",     //자바스크립트 버전
+    "module": "commonjs",  //require문법 사용
+    "noImplicitAny": true, //any라는 타입 발견시 에러 띄워줌
+    "strictNullChecks": true //null undefined타입 조작하면 에러를 띄워줌
+  } 
+}
